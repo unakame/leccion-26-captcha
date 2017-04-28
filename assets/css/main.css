@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+}
+
+#contenedor{
+  background-color: #8B1E2E;
+  height: 450px;
+  width: 600px;
+  margin-left: 350px;
+}
+
+#codigo{
+  background-color: #ffffff;
+  height: 190px;
+  width: 550px;
+  margin-left: 25px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+#input{
+  background-color: #F9E777;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 310px;
+
+}
