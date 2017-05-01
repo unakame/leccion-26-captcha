@@ -14,6 +14,7 @@ function CrearCaptcha(){
 
    document.getElementById("refresh").addEventListener("click", function(){
        CrearCaptcha();
+       colorear();
    });
 
 function ValidarCaptcha(){
@@ -26,3 +27,13 @@ function ValidarCaptcha(){
    document.getElementById("verify").addEventListener("click", function(){
        alert(ValidarCaptcha());
   })
+
+  function colorear() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++ ) {
+          color += letters[Math.floor(Math.random() * 16)];
+      }
+      return document.getElementById("codigo").style.color = color;
+
+  }
