@@ -1,12 +1,20 @@
 *{
   margin: 0;
 }
-
+h1{
+  color: #8B1E2E;
+  margin-left:560px;
+  margin-top: -40px;
+  font-family: helvetica;
+  position: absolute;
+  z-index: +10;
+}
 #contenedor{
   background-color: #8B1E2E;
-  height: 450px;
+  height: 420px;
   width: 600px;
   margin-left: 350px;
+  margin-top: 70px;
 }
 
 #codigo{
@@ -16,6 +24,8 @@
   margin-left: 25px;
   margin-top: 10px;
   position: absolute;
+  color: black;
+  font-size: 40px;
 }
 
 #input{
@@ -25,5 +35,27 @@
   margin-top: 250px;
   height: 150px;
   width: 310px;
+  font-size: 30px;
+  color: brown;
+}
 
+img{
+  position: absolute;
+  margin-left: 410px;
+  margin-top: 250px;
+}
+
+a{
+  color: #FCFAFA;
+  position: absolute;
+  margin-left: 355px;
+  font-size: 40px;
+}
+
+#refresh{
+  margin-top: 260px;
+}
+
+#verify{
+  margin-top: 330px;
 }

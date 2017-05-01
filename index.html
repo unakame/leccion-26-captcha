@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Captcha</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/fonts/style.css">
 </head>
 <body>
+  <h1>ReCaptcha</h1>
   <div id="contenedor">
-    <div id="codigo"></div>
+    <input id="codigo" type="text"></input>
     <input id="input">
-
+    <img src="assets/img/captcha.png" alt="">
+    <a type="button" class="icon-spinner11" id="refresh"></a>
+    <a type="button" class="icon-circle-check" id="verify"></a>
+   <script type="text/javascript" src="assets/js/main.js"></script>
   </div>
 </body>
 </html>
